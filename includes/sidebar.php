@@ -1,6 +1,4 @@
-<!-- Blog Sidebar Widgets Column -->
 <div class="col-md-4">
-    <!-- Blog Search Well -->
     <div class="well">
         <h4>Blog Search</h4>
         <form action="search.php" method="POST">
@@ -22,9 +20,9 @@
             </div>
             <div class="form-group">
                 <input name="password" type="password" placeholder="Insert your password" class="form-control">
-                <span class="input-group-btn">
-                    <button class="btn btn-primary" name="login" type="submit">login</button>
-                </span>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" name="login" type="submit">login</button>
             </div>
         </form>
     </div>
@@ -47,11 +45,7 @@
                     ?>
                 </ul>
             </div>
-            <!-- /.col-lg-6 -->
         </div>
-        <!-- /.row -->
     </div>
-
-    <!-- Side Widget Well -->
     <?php include 'widget.php' ?>
 </div>
